@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.datesActivity"
+    android:background="#3F4647">
+
+    <ImageButton
+        android:id="@+id/dates_LBL_Sunday"
+        android:layout_width="270dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="100dp"
+        android:src = "@drawable/ic_sunday"
+        android:scaleType="fitCenter">
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/dates_LBL_Monday"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="70dp"
+        android:layout_width="270dp"
+        android:layout_height="75dp"
+        android:src = "@drawable/ic_monday"
+        android:scaleType="fitCenter">
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/dates_LBL_Tuesday"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="70dp"
+        android:layout_width="270dp"
+        android:layout_height="75dp"
+        android:src = "@drawable/ic_tuesday"
+        android:scaleType="fitCenter">
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/dates_LBL_Wednesday"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="70dp"
+        android:layout_width="270dp"
+        android:layout_height="75dp"
+        android:src = "@drawable/ic_wednesday"
+        android:scaleType="fitCenter">
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/dates_LBL_Thursday"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="70dp"
+        android:layout_width="270dp"
+        android:layout_height="75dp"
+        android:src = "@drawable/ic_thursday"
+        android:scaleType="fitCenter">
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/dates_LBL_Friday"
+        android:layout_marginTop="600dp"
+        android:layout_marginStart="70dp"
+        android:layout_width="270dp"
+        android:layout_height="75dp"
+        android:src = "@drawable/ic_friday"
+        android:scaleType="fitCenter">
+    </ImageButton>
+
+</RelativeLayout>

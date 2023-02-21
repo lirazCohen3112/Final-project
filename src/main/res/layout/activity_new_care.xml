@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.NewCareActivity">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/table_records_LBL_title_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginBottom="24dp"
+        android:text="Add a new treatment:"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/table_records_LBL_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:text="Queue types"
+        android:textColor="#000000"
+        android:textSize="23sp" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/care_LBL_add_new_queue"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:text="Adding a new queue"
+        android:textStyle="bold"
+        android:layout_marginTop="570dp"
+        android:layout_marginStart="110dp"
+        android:textSize="13dp"
+        android:layout_weight="1"
+        />
+
+    <FrameLayout
+        android:id="@+id/table_records_LAY_list"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:layout_weight="1"
+        android:background="#45454545"
+        android:padding="24dp" />
+    
+    <EditText
+        android:id="@+id/care_EDT_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="enter name:"
+        android:layout_marginTop="370dp"
+        android:layout_marginStart="70dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/care_EDT_explanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="enter explanation:"
+        android:layout_marginTop="415dp"
+        android:layout_marginStart="70dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/care_EDT_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="enter cost:"
+        android:layout_marginTop="460dp"
+        android:layout_marginStart="70dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/care_EDT_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="enter time:"
+        android:layout_marginTop="505dp"
+        android:layout_marginStart="70dp"
+        android:ems="10" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/care_LBL_Return_menu"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:text="     menu"
+        android:textStyle="bold"
+        android:layout_marginTop="640dp"
+        android:layout_marginStart="260dp"
+        android:textSize="13dp"
+        android:layout_weight="1"
+        />
+
+
+
+</RelativeLayout>

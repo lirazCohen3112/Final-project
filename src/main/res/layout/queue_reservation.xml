@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/care_EDT_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="enter name:"
+        android:layout_marginTop="410dp"
+        android:layout_marginStart="70dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/care_EDT_explanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="enter explanation:"
+        android:layout_marginTop="455dp"
+        android:layout_marginStart="70dp"
+        android:ems="10" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/care_LBL_add_new_queue"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:text="Adding a new queue"
+        android:textStyle="bold"
+        android:layout_marginTop="640dp"
+        android:layout_marginStart="110dp"
+        android:textSize="13dp"
+        android:layout_weight="1"
+        />
+
+</RelativeLayout>
